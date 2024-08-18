@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "88925584673",
+    "project_id": "crashlytics-symbol-error-test",
+    "storage_bucket": "crashlytics-symbol-error-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88925584673:android:5e29e631a333787113d260",
+        "android_client_info": {
+          "package_name": "com.example.flutter_firebase_crashlytics"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMIRY3WWiO9Jit6VzAuSc-XtF0US2e8_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88925584673:android:c148fca9820f8cee13d260",
+        "android_client_info": {
+          "package_name": "io.flutter.plugins.firebasecrashlyticsexample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMIRY3WWiO9Jit6VzAuSc-XtF0US2e8_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
