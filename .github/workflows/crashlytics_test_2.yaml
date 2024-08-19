@@ -3,7 +3,7 @@ name: Crashlytics Test 2
 on: workflow_dispatch
 
 jobs:
-  crashlytics_test:
+  crashlytics_test_2:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
