@@ -1,4 +1,4 @@
-name: Crashlytics Test
+name: Crashlytics Test 2
 
 on: workflow_dispatch
 
