@@ -25,9 +25,11 @@ jobs:
       - name: Build
         run: |
           flutter build apk --release --obfuscate --split-debug-info=build/app/outputs/symbols
-      - name: Upload symbol files to Crashlytics
-        uses: w9jds/firebase-action@v13.15.0
-        with:
-          args: crashlytics:symbols:upload --app=${{ secrets.FIREBASE_APP_ID }} build/app/outputs/symbols
+      - name: Install firebase CLI
+        run: curl -sL https://firebase.tools | bash
+      - name: export GOOGLE_APPLICATION_CREDENTIALS_JSON
+        run: echo ${{ secrets.FIREBASE_CREDENTIAL_FILE_BASE64 }} > /tmp/google_application_credentials.json
+      - name: Upload symbols to firebase crashlytics
+        run: firebase crashlytics:symbols:upload --app=${{ secrets.FIREBASE_APP_ID }} build/app/outputs/symbols
         env:
-          GCP_SA_KEY: ${{ secrets.FIREBASE_CREDENTIAL_FILE_BASE64 }}
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/google_application_credentials.json
