@@ -59,10 +59,10 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBh9jy9Uq8ANShMU3TiQUxs8C_503fgjE8',
-    appId: '1:88925584673:ios:15b6eb1e4e0030e613d260',
+    appId: '1:88925584673:ios:e28b02e1253be29013d260',
     messagingSenderId: '88925584673',
     projectId: 'crashlytics-symbol-error-test',
     storageBucket: 'crashlytics-symbol-error-test.appspot.com',
-    iosBundleId: 'io.flutter.plugins.firebase.crashlytics.example',
+    iosBundleId: 'io.flutter.plugins.firebase.crashlytics.example2',
   );
 }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBh9jy9Uq8ANShMU3TiQUxs8C_503fgjE8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>88925584673</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.flutter.plugins.firebase.crashlytics.example2</string>
+	<key>PROJECT_ID</key>
+	<string>crashlytics-symbol-error-test</string>
+	<key>STORAGE_BUCKET</key>
+	<string>crashlytics-symbol-error-test.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:88925584673:ios:e28b02e1253be29013d260</string>
+</dict>
+</plist>
